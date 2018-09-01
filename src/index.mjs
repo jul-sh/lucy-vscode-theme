@@ -1,10 +1,20 @@
-import { writeFile } from 'fs'
+import fs from 'fs'
+import { promisify } from 'util'
 import getTheme from './getTheme'
-import color from './colors'
+import colors from './colors'
 
-const themeWithColors = getTheme(color)
-const stringifiedTheme = JSON.stringify(themeWithColors)
+const EXPORT_PATH = './themes/lucy-color-theme.json'
 
-writeFile('./themes/lucy-color-theme.json', stringifiedTheme, error =>
-  console.log(error ? error : '✨ theme built')
-)
+const buildTheme = async path => {
+  const writeFile = promisify(fs.writeFile)
+  const themeWithColors = getTheme(colors)
+
+  try {
+    await writeFile(path, JSON.stringify(themeWithColors))
+    console.log('🌺 Theme built. 💅')
+  } catch (error) {
+    console.log(error)
+  }
+}
+
+buildTheme(EXPORT_PATH)
