@@ -26,35 +26,14 @@
     ]
   },
   "tags": [
-    "js",
-    "jsx",
-    "osx",
-    "git",
-    "css",
-    "dark",
-    "blue",
-    "icon",
-    "scss",
-    "html",
-    "clean",
-    "green",
-    "macOS",
-    "vivid",
-    "theme",
-    "yellow",
-    "windows",
-    "orginal",
-    "balanced",
-    "beautiful",
     "femme",
     "feminine",
     "clear",
     "pink",
-    "refined",
     "dark theme",
     "color-theme",
     "monokai",
-    "web development"
+    "cute"
   ],
   "devDependencies": {
     "clean-slate-lint": "^1.0.9"
