@@ -2,8 +2,9 @@
   "name": "lucy-vscode",
   "displayName": "lucy",
   "description": "refined theme, inspired by monokai",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "publisher": "juliettepretot",
+  "repository": "https://github.com/juliettepretot/lucy-vscode",
   "scripts": {
     "build": "node --experimental-modules src/index.mjs"
   },
@@ -13,6 +14,7 @@
   "categories": [
     "Themes"
   ],
+  "icon": "static/icon.png",
   "contributes": {
     "themes": [
       {
@@ -21,6 +23,5 @@
         "path": "./themes/lucy-color-theme.json"
       }
     ]
-  },
-  "repository": "https://github.com/juliettepretot/lucy-vscode"
+  }
 }
