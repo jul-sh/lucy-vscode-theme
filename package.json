@@ -1,7 +1,7 @@
 {
   "name": "lucy-vscode",
   "displayName": "lucy",
-  "description": "refined theme, inspired by monokai",
+  "description": "Cute && clear; Inspired by monokai",
   "version": "2.2.1",
   "publisher": "juliettepretot",
   "repository": "https://github.com/juliettepretot/lucy-vscode",
@@ -24,5 +24,36 @@
         "path": "./themes/lucy-color-theme.json"
       }
     ]
-  }
+  },
+  "tags": [
+    "js",
+    "jsx",
+    "osx",
+    "git",
+    "css",
+    "dark",
+    "blue",
+    "icon",
+    "scss",
+    "html",
+    "clean",
+    "green",
+    "macOS",
+    "vivid",
+    "theme",
+    "yellow",
+    "windows",
+    "orginal",
+    "balanced",
+    "beautiful",
+    "femme",
+    "feminine",
+    "clear",
+    "pink",
+    "refined",
+    "dark theme",
+    "color-theme",
+    "monokai",
+    "web development"
+  ]
 }
