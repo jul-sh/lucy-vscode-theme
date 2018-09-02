@@ -55,5 +55,14 @@
     "color-theme",
     "monokai",
     "web development"
-  ]
+  ],
+  "devDependencies": {
+    "clean-slate-lint": "^1.0.9"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "./node_modules/.bin/clean-slate-lint",
+      "pre-rewrite": "./node_modules/.bin/clean-slate-lint"
+    }
+  }
 }
