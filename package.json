@@ -2,7 +2,7 @@
   "name": "lucy-vscode",
   "displayName": "lucy",
   "description": "Cute && clear; Inspired by monokai",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "publisher": "juliettepretot",
   "repository": "https://github.com/juliettepretot/lucy-vscode",
   "scripts": {
