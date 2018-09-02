@@ -2,11 +2,12 @@
   "name": "lucy-vscode",
   "displayName": "lucy",
   "description": "refined theme, inspired by monokai",
-  "version": "2.1.3",
+  "version": "2.2.1",
   "publisher": "juliettepretot",
   "repository": "https://github.com/juliettepretot/lucy-vscode",
   "scripts": {
-    "build": "node --experimental-modules src/index.mjs"
+    "build": "node --experimental-modules src/index.mjs",
+    "release": "npm version patch & vsce publish && npm publish"
   },
   "engines": {
     "vscode": "^1.26.0"
