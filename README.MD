@@ -1,4 +1,4 @@
-![theme screenshot one](screenshot.png)
+![theme screenshot one](screenshot.jpg)
 
 Customizable. Change the colors in `color.mjs` & run `npm run build` to build the theme.
 
