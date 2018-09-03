@@ -21,7 +21,7 @@
       {
         "label": "lucy",
         "uiTheme": "vs-dark",
-        "path": "./themes/lucy-color-theme.json"
+        "path": "./dist/color-theme.json"
       }
     ]
   },

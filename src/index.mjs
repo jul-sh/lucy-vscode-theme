@@ -3,7 +3,7 @@ import { promisify } from 'util'
 import getTheme from './getTheme'
 import colors from './colors'
 
-const EXPORT_PATH = './themes/lucy-color-theme.json'
+const EXPORT_PATH = './dist/color-theme.json'
 
 const buildTheme = async path => {
   const writeFile = promisify(fs.writeFile)
