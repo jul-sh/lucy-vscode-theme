@@ -7,7 +7,7 @@
   "repository": "https://github.com/juliettepretot/lucy-vscode",
   "scripts": {
     "build": "node --experimental-modules src/index.mjs",
-    "release": "npm version patch & vsce publish && npm publish"
+    "release": "npm version patch & vsce publish && npm publish && git push"
   },
   "engines": {
     "vscode": "^1.26.0"
