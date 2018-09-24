@@ -1,4 +1,5 @@
 export default colors => ({
+  $schema: 'vscode://schemas/color-theme',
   name: 'lucy',
   type: 'dark',
   colors: {
