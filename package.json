@@ -1,8 +1,8 @@
 {
   "name": "lucy-vscode",
-  "displayName": "lucy",
+  "displayName": "lucy theme",
   "description": "Soothing & contrasted theme.",
-  "version": "2.2.8",
+  "version": "2.3.0",
   "publisher": "juliettepretot",
   "repository": "https://github.com/juliettepretot/lucy-vscode",
   "scripts": {
