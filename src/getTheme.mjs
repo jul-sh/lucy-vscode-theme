@@ -1,6 +1,6 @@
 export default colors => ({
   $schema: 'vscode://schemas/color-theme',
-  name: 'lucy',
+  name: 'Lucy Theme',
   type: 'dark',
   colors: {
     focusBorder: colors.dim2,

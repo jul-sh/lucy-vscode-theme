@@ -11,7 +11,7 @@ const buildTheme = async path => {
 
   try {
     await writeFile(path, JSON.stringify(themeWithColors))
-    console.log('🌺 Theme built. 💅')
+    console.log('👍 Theme built. 💅')
   } catch (error) {
     console.log(error)
   }
