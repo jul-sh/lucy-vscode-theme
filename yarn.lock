@@ -324,7 +324,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-clean-slate-lint@^1.0.9:
+clean-slate-lint@1.0.9:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/clean-slate-lint/-/clean-slate-lint-1.0.9.tgz#3d630744d5d8eaac3126f5118ea04bdc27ddacbf"
   dependencies:

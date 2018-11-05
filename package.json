@@ -36,7 +36,7 @@
     "cute"
   ],
   "devDependencies": {
-    "clean-slate-lint": "^1.0.9"
+    "clean-slate-lint": "1.0.9"
   },
   "husky": {
     "hooks": {
