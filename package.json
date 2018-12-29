@@ -2,12 +2,12 @@
   "name": "lucy-vscode",
   "displayName": "lucy",
   "description": "Soft but clear syntax theme",
-  "version": "2.2.7",
+  "version": "2.2.8",
   "publisher": "juliettepretot",
   "repository": "https://github.com/juliettepretot/lucy-vscode",
   "scripts": {
     "build": "node --experimental-modules src/index.mjs",
-    "release": "npm version patch & vsce publish && npm publish && git push"
+    "release": "npm version patch & vsce publish && git push"
   },
   "engines": {
     "vscode": "^1.26.0"
