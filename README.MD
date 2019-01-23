@@ -1,6 +1,5 @@
 ![lucy theme icon](static/icon-small.png)
 
-![download counter](https://vsmarketplacebadge.apphb.com/installs-short/juliettepretot.lucy-vscode.svg)
 ![rating](https://vsmarketplacebadge.apphb.com/rating-star/juliettepretot.lucy-vscode.svg)
 
 ![theme screenshot one](screenshot.jpg)
