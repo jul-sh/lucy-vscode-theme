@@ -1,4 +1,4 @@
-![lucy theme icon](static/icon-readme.png)
+![lucy theme icon](static/icon-readme.jpg)
 
 ![rating](https://vsmarketplacebadge.apphb.com/rating-star/juliettepretot.lucy-vscode.svg)
 
