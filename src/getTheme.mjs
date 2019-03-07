@@ -52,7 +52,7 @@ export default colors => ({
     'list.hoverForeground': colors.pure2,
     'list.inactiveSelectionBackground': colors.background3,
     'list.inactiveSelectionForeground': colors.base2,
-    'list.inactiveFocusBackground': colors.base2,
+    'list.inactiveFocusBackground': colors.background3,
     'list.invalidItemForeground': colors.base1,
     'activityBar.background': colors.background1,
     'activityBar.dropBackground': colors.translucent,
