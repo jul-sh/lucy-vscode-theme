@@ -1,8 +1,8 @@
-![lucy theme icon](static/icon-readme.jpg)
+![theme screenshot one](screenshot.jpg)
+
+---
 
 ![rating](https://vsmarketplacebadge.apphb.com/rating-star/juliettepretot.lucy-vscode.svg)
-
-![theme screenshot one](screenshot.jpg)
 
 Available in [codesandbox.io](https://codesandbox.io)
 
