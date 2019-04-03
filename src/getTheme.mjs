@@ -975,6 +975,12 @@ export default colors => ({
       }
     },
     {
+      scope: ['storage.modifier.package', 'storage.modifier.import'],
+      settings: {
+        foreground: colors.pure2
+      }
+    },
+    {
       scope: 'string',
       settings: {
         foreground: colors.base2
