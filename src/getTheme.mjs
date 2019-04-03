@@ -268,13 +268,13 @@ export default colors => ({
       }
     },
     {
-      scope: '\n\t\tcomment storage.type\n\t',
+      scope: 'comment storage.type',
       settings: {
         foreground: colors.dim2
       }
     },
     {
-      scope: '\n\t\tcomment entity.name.type\n\t',
+      scope: 'comment entity.name.type',
       settings: {
         foreground: colors.dim4
       }
@@ -286,25 +286,25 @@ export default colors => ({
       }
     },
     {
-      scope: '\n\t\tcomment keyword.codetag.notation\n\t',
+      scope: 'comment keyword.codetag.notation',
       settings: {
         foreground: colors.const
       }
     },
     {
-      scope: '\n\t\tcomment.git-status.header.remote\n\t',
+      scope: 'comment.git-status.header.remote',
       settings: {
         foreground: colors.base1
       }
     },
     {
-      scope: '\n\t\tcomment.git-status.header.local\n\t',
+      scope: 'comment.git-status.header.local',
       settings: {
         foreground: colors.accent1
       }
     },
     {
-      scope: '\n\t\tcomment.other.git-status.head\n\t',
+      scope: 'comment.other.git-status.head',
       settings: {
         foreground: colors.pure2
       }
@@ -458,7 +458,7 @@ export default colors => ({
     },
     {
       scope:
-        '\n\t\tentity.other.attribute-name.pseudo-class.css\n\t\tentity.other.pseudo-class.css\n\t',
+        'entity.other.attribute-name.pseudo-class.cssentity.other.pseudo-class.css',
       settings: {
         fontStyle: 'italic',
         foreground: colors.accent1
@@ -471,7 +471,7 @@ export default colors => ({
       }
     },
     {
-      scope: '\n\t\tentity.other.git-status.hex\n\t',
+      scope: 'entity.other.git-status.hex',
       settings: {
         foreground: colors.const
       }
@@ -507,8 +507,7 @@ export default colors => ({
       }
     },
     {
-      scope:
-        '\n\t\tkeyword.other.template.begin\n\t\tkeyword.other.template.end\n\t',
+      scope: 'keyword.other.template.beginkeyword.other.template.end',
       settings: {
         foreground: colors.base1
       }
@@ -738,7 +737,7 @@ export default colors => ({
       }
     },
     {
-      scope: '\n\t\tmeta.diff.git-diff.header\n\t',
+      scope: 'meta.diff.git-diff.header',
       settings: {
         foreground: colors.base1
       }
@@ -894,7 +893,7 @@ export default colors => ({
       }
     },
     {
-      scope: '\n\t\tsource.git-show.commit.sha\n\t',
+      scope: 'source.git-show.commit.sha',
       settings: {
         foreground: colors.const
       }
@@ -921,7 +920,7 @@ export default colors => ({
       }
     },
     {
-      scope: '\n\t\tsource.git-show meta.diff.range.unified\n\t',
+      scope: 'source.git-show meta.diff.range.unified',
       settings: {
         foreground: colors.accent2
       }
@@ -1027,13 +1026,13 @@ export default colors => ({
       }
     },
     {
-      scope: '\n\t\tstring.other.git-status.help.key\n\t',
+      scope: 'string.other.git-status.help.key',
       settings: {
         foreground: colors.dim4
       }
     },
     {
-      scope: '\n\t\tstring.other.git-status.remote\n\t',
+      scope: 'string.other.git-status.remote',
       settings: {
         foreground: colors.base1
       }
