@@ -26,14 +26,12 @@
     ]
   },
   "tags": [
-    "femme",
-    "feminine",
+    "soft",
     "clear",
     "pink",
     "dark theme",
     "color-theme",
-    "monokai",
-    "cute"
+    "monokai"
   ],
   "devDependencies": {
     "clean-slate-lint": "^1.0.9"
