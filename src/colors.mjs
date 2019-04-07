@@ -14,7 +14,7 @@ export default {
   accent2: '#fdad5d',
   call: '#76c5a4',
   base1: '#fb7da7',
-  base2: '#e7d368',
+  base2: '#e3cf65',
   translucent: '#161821bf',
   translucent2: '#ffffff26',
   translucent3: '#ffffff0c',
