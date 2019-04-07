@@ -6,8 +6,8 @@
   "publisher": "juliettepretot",
   "repository": "https://github.com/juliettepretot/lucy-vscode",
   "scripts": {
-    "build": "node --experimental-modules src/index.mjs",
-    "release": "npm run build && git add dist/color-theme.json && git commit -m build-theme && npm version patch & vsce publish && git push"
+    "build": "node --experimental-modules src/build.mjs",
+    "release": "npm run build && git add dist/color-theme.json && npm version patch & vsce publish && git push"
   },
   "engines": {
     "vscode": "^1.26.0"
@@ -21,7 +21,7 @@
       {
         "label": "lucy",
         "uiTheme": "vs-dark",
-        "path": "./dist/color-theme.json"
+        "path": "./dist/lucy-theme.json"
       }
     ]
   },
@@ -34,12 +34,14 @@
     "monokai"
   ],
   "devDependencies": {
-    "clean-slate-lint": "^1.0.9"
+    "clean-slate-lint": "^1.0.9",
+    "fs-path": "0.0.24"
   },
   "husky": {
     "hooks": {
       "pre-commit": "./node_modules/.bin/clean-slate-lint",
       "pre-rewrite": "./node_modules/.bin/clean-slate-lint"
     }
-  }
+  },
+  "dependencies": {}
 }

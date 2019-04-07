@@ -1,4 +1,4 @@
-![theme screenshot one](screenshot.jpg)
+![theme screenshot one](static/screenshot.jpg)
 
 ---
 

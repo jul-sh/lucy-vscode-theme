@@ -1,4 +1,4 @@
-export default {
+const BASE_COLORS = {
   background1: '#0e0f15',
   background2: '#14161e',
   background3: '#1a1d27',
@@ -24,4 +24,14 @@ export default {
   translucent7: '#ff84ad26',
   translucent8: '#00000000',
   translucent9: '#ffffff12'
+}
+
+export default function getColors(colorFilter) {
+  return Object.entries(BASE_COLORS).reduce(
+    (accumulator, [colorName, colorCode]) => ({
+      ...accumulator,
+      [colorName]: colorFilter(colorCode)
+    }),
+    {}
+  )
 }
