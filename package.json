@@ -22,6 +22,11 @@
         "label": "lucy",
         "uiTheme": "vs-dark",
         "path": "./dist/lucy-theme.json"
+      },
+      {
+        "label": "lucy warm",
+        "uiTheme": "vs-dark",
+        "path": "./dist/lucy-warm-theme.json"
       }
     ]
   },
@@ -35,7 +40,9 @@
   ],
   "devDependencies": {
     "clean-slate-lint": "^1.0.9",
-    "fs-path": "0.0.24"
+    "color-blend": "^2.0.4",
+    "fs-path": "0.0.24",
+    "tinycolor2": "^1.4.1"
   },
   "husky": {
     "hooks": {
