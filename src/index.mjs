@@ -1,7 +1,7 @@
 import { writeFile } from 'fs'
 import { promisify } from 'util'
-import getTheme from './getTheme'
-import colors from './colors'
+import getTheme from './getTheme.mjs'
+import colors from './colors.mjs'
 
 const promisifiedWriteFile = promisify(writeFile)
 const EXPORT_PATH = './dist/color-theme.json'
