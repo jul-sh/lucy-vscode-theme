@@ -5,7 +5,7 @@ export default colors => ({
     focusBorder: colors.dim2,
     foreground: colors.pure2,
     'widget.shadow': colors.background1,
-    'selection.background': colors.background4,
+    'selection.background': colors.selection,
     descriptionForeground: colors.dim3,
     errorForeground: colors.base1,
     'textBlockQuote.background': colors.background4,
