@@ -17,7 +17,7 @@ const VARIANTS = {
     const clamp = (number) => Math.min(Math.max(number, 0), 255)
 
     // Shift colors while preserving luminosity
-    const newRed = clamp(red * 1.175)
+    const newRed = clamp(sum > 650 ? red * 1.1 : red * 1.175)
     const newGreen = clamp(green * 0.9925)
     const newBlue = clamp(sum - (newRed + newGreen))
 
