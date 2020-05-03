@@ -19,7 +19,7 @@ const VARIANTS = {
     // Shift colors while preserving luminosity
     const newRed = clamp(red * 1.175)
     const newGreen = clamp(green * 0.9925)
-    const newBlue = sum - (newRed + newGreen)
+    const newBlue = clamp(sum - (newRed + newGreen))
 
     return chroma({ r: newRed, g: newGreen, b: newBlue, a: alpha }).hex()
   }
