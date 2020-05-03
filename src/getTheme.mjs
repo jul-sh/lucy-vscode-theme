@@ -1,4 +1,4 @@
-export default colors => ({
+export default ({ name, colors }) => ({
   name: 'lucy',
   type: 'dark',
   colors: {
