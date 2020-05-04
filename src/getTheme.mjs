@@ -1,5 +1,5 @@
 export default ({ name, colors }) => ({
-  name: 'lucy',
+  name,
   type: 'dark',
   colors: {
     focusBorder: colors.dim2,
