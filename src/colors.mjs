@@ -2,6 +2,7 @@ export default {
   background1: '#0e0f15',
   background2: '#14161e',
   background3: '#1a1d27',
+  background3Half: '#1F222D',
   background4: '#292c38',
   selection: '#413b4f',
   dim1: '#494c59',
